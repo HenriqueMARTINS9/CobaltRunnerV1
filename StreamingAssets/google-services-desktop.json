@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "58528106477",
+    "project_id": "cobalt-runner-e3b57",
+    "storage_bucket": "cobalt-runner-e3b57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58528106477:ios:9b6d83c53a1c36953fc9e4",
+        "android_client_info": {
+          "package_name": "com.Cobalt.InfiniRunnerCobalt3D"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhNfOpQ_NIyXyftOHkxpRhSYbnN3m7lwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58528106477-jrhnokk716u2ie1hl6c66l3kd615o5ns.apps.googleusercontent.com"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}
