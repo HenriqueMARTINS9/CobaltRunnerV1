@@ -9,7 +9,7 @@
   </head>
   <body>
       <div id="unity-container" class="unity-desktop">
-          <canvas id="unity-canvas" width=1440 height=900></canvas>
+          <canvas id="unity-canvas" width=960 height=600></canvas>
           <div id="unity-loading-bar">
               <div id="unity-logo"></div>
               <div id="unity-progress-bar-empty">
@@ -17,6 +17,7 @@
               </div>
           </div>
           <div id="unity-warning"> </div>
+
       </div>
       <script>
           var container = document.querySelector("#unity-container");
@@ -59,7 +60,7 @@
               streamingAssetsUrl: "StreamingAssets",
               companyName: "Cobalt",
               productName: "CobaltRunner",
-              productVersion: "0.2",
+              productVersion: "0.3",
               showBanner: unityShowBanner,
           };
 
@@ -90,8 +91,8 @@
           } else {
               // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-              canvas.style.width = "1440px";
-              canvas.style.height = "900px";
+              canvas.style.width = "960px";
+              canvas.style.height = "600px";
           }
 
           loadingBar.style.display = "block";
@@ -109,7 +110,6 @@
               });
           };
           document.body.appendChild(script);
-      </script>
       </script>
       <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-app-compat.js"></script>
       <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore-compat.js"></script>
